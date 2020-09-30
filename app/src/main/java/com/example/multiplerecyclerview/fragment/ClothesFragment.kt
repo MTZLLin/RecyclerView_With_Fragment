@@ -37,7 +37,25 @@ class ClothesFragment : Fragment() {
             Clothes(
                 R.drawable.bag_it_me,
                 "HORNS PINK LONG",
-                "SLEEVE T SHIRT",
+                "Smart Bag",
+                "Lady Gaga",
+                "72000Ks"
+            )
+        )
+        clotheslist.add(
+            Clothes(
+                R.drawable.bag_green,
+                "Channel",
+                "Smart Bag",
+                "Lady Gaga",
+                "72000Ks"
+            )
+        )
+        clotheslist.add(
+            Clothes(
+                R.drawable.bag_adidas,
+                "Adidas",
+                "Smart Bag",
                 "Lady Gaga",
                 "72000Ks"
             )

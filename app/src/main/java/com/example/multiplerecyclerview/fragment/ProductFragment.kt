@@ -26,10 +26,10 @@ class ProductFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         var productlist=ArrayList<Product>()
-        productlist.add(Product("Iphone 8 Plus","Apple","980000 Ks",R.drawable.apple))
+        productlist.add(Product("Iphone 8 Plus","Apple","980000 Ks",R.drawable.iphone))
         productlist.add(Product("GhostBed 11 Inch Colling Gel Memory Foam...","GhostBed","325000 Ks",R.drawable.bed))
-        productlist.add(Product("Nintendo Switch-Neon Blue and Red Joy-Con","Nintendo","359000 Ks",R.drawable.neon))
-        productlist.add(Product("BELAROI Womens Comfy Swing Tunic Short..","Belaroi","18990 Ks",R.drawable.dress))
+        productlist.add(Product("Nintendo Switch-Neon Blue and Red Joy-Con","Nintendo","359000 Ks",R.drawable.game))
+        productlist.add(Product("BELAROI Womens Comfy Swing Tunic Short..","Belaroi","18990 Ks",R.drawable.skirt))
 
         var productadapter=ProductAdapter(productlist)
         productRecyclerView.layoutManager=LinearLayoutManager(context)
